@@ -1,0 +1,22 @@
+:root {
+    --color-primario: #2a1b2a;
+    --color-secundario: rgb(55, 35, 94);
+    --sombra: rgba(103, 84, 103, 0.87);
+}
+body {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-primario);
+}
